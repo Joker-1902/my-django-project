@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+
+# Django
+/staticfiles/
+/media/
+/db.sqlite3
+
+# Environment
+.env
+*.env
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Docker
+*.pid
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Migrations (если хочешь их не коммитить на этапе тестов)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Python virtual environment
+venv/
+ENV/
+
+# Render build artifacts
+render.yaml.local
